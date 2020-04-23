@@ -1,0 +1,3 @@
+dispatch:
+  - url: "science.girishgupta.com/*"
+    service: science
