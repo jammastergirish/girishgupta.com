@@ -1,3 +1,5 @@
 dispatch:
   - url: "science.girishgupta.com/*"
     service: science
+  - url: "journalism.girishgupta.com/*"
+    service: journalism
