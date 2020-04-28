@@ -3,3 +3,7 @@ dispatch:
     service: science
   - url: "journalism.girishgupta.com/*"
     service: journalism
+  - url: "musicgoeson.com/*"
+    service: mgo
+  - url: "www.musicgoeson.com/*"
+    service: mgo
