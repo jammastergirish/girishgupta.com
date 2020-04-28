@@ -162,7 +162,7 @@ input:focus
       <br><br>
       <hr width=80%>
       <br>
-      Girish taught himself to code at eleven, writing software and building database-driven websites from scratch. A popular music website he created in his early teens, in 2000, was listed by <i>MTV</i> as one of the then nascent web’s top twenty sources. 
+      Girish started teaching himself to code at eleven, writing software and building relational database-driven websites from scratch. A popular music site he created in his early teens, in 2000, was listed by <i>MTV</i> as one of the then nascent web’s top twenty sources. 
       <br><br>
       <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
@@ -244,7 +244,7 @@ input:focus
     <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
     <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
     <div><div class="button"><a href="https://www.accordingtodocuments.com/">According to Documents</a></div></div>
-    <div><div class="button"><a href="https://mgo.girishgupta.com/">Music Goes On</a></div></div>
+    <div><div class="button"><a href="https://www.musicgoeson.com/">Music Goes On</a></div></div>
 
     <br><br>
 
