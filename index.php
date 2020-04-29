@@ -1,8 +1,11 @@
 <?php
 
-if (substr($_SERVER['HTTP_HOST'],0,3)!="www")
+if ($_SERVER['SERVER_PORT']!=8888)
 {
-  header("Location: https://www.".$_SERVER['HTTP_HOST'].$_SERVER[REQUEST_URI]);
+  if (substr($_SERVER['HTTP_HOST'],0,3)!="www")
+  {
+    header("Location: https://www.".$_SERVER['HTTP_HOST'].$_SERVER[REQUEST_URI]);
+  }
 }
 
 //20180403 https://training.kalzumeus.com/newsletters/archive/lifecycle_emails_3?__s=masu37fnwbjxsp1ycikb, https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/, http://www.gidblog.com/compress-your-web-page/, http://www.gidnetwork.com/tools/gzip-test.php
