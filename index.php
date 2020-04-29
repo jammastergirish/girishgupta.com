@@ -193,7 +193,7 @@ input:focus
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      From Mumbai, he led data science at a public policy non-profit think/do tank, heading teams working with government in applying modern technology to everything from urban planning and mapping to data governance and the COVID-19 response.
+      In Mumbai, he created a data science unit at a public policy non-profit think/do tank. It worked with government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
       <br><br>
       Now, as Chief Technology Officer at Stanford-conceived, France-based startup <i>Deepnews.ai</i>, Girish is building a machine learning algorithm to help identify quality journalism.
       
