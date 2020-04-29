@@ -1,11 +1,17 @@
 <?php
 
-if ($_SERVER['SERVER_PORT']!=8888)
+if ($_SERVER['SERVER_PORT']!=8888) // If I were on 8888, I'd be testing.
 {
   if (substr($_SERVER['HTTP_HOST'],0,3)!="www")
   {
     header("Location: https://www.".$_SERVER['HTTP_HOST'].$_SERVER[REQUEST_URI]);
   }
+}
+else
+{
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
 }
 
 //20180403 https://training.kalzumeus.com/newsletters/archive/lifecycle_emails_3?__s=masu37fnwbjxsp1ycikb, https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/, http://www.gidblog.com/compress-your-web-page/, http://www.gidnetwork.com/tools/gzip-test.php
