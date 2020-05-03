@@ -1,13 +1,1 @@
 dispatch:
-  - url: "science.girishgupta.com/*"
-    service: science
-  - url: "journalism.girishgupta.com/*"
-    service: journalism
-  - url: "musicgoeson.com/*"
-    service: mgo
-  - url: "www.musicgoeson.com/*"
-    service: mgo
-  - url: "datadrum.com/*"
-    service: datadrum
-  - url: "www.datadrum.com/*"
-    service: datadrum
