@@ -167,7 +167,7 @@ input:focus
 
     <div class="text">
 
-     Girish has a Master’s in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. Girish has created and worked with startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
+      Girish has a Master’s in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done are demonstrated by having landed in many difficult and remote places with no money or contacts and made things work. He has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
       <br><br>
       <hr width=80%>
       <br>
