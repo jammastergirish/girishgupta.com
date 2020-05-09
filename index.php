@@ -12,6 +12,8 @@ else
   ini_set('display_errors', 1);
   ini_set('display_startup_errors', 1);
   error_reporting(E_ALL);
+
+  #putenv("GOOGLE_APPLICATION_CREDENTIALS=girishgupta-f33157326a57.json"); // https://cloud.google.com/storage/docs/reference/libraries#client-libraries-usage-php
 }
 
 //20180403 https://training.kalzumeus.com/newsletters/archive/lifecycle_emails_3?__s=masu37fnwbjxsp1ycikb, https://betterexplained.com/articles/how-to-optimize-your-site-with-gzip-compression/, http://www.gidblog.com/compress-your-web-page/, http://www.gidnetwork.com/tools/gzip-test.php
@@ -249,11 +251,14 @@ input:focus
     <br><br>
 
     <div><div class="button"><a href="https://www.deepnews.ai/">Deepnews.ai</a></div></div>
-    <div><div class="button"><a href="https://www.datadrum.com/">Data Drum</a></div></div>
-    <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
-    <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
     <div><div class="button"><a href="https://www.accordingtodocuments.com/">According to Documents</a></div></div>
+    <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
+    <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
+    <div><div class="button"><a href="https://www.freelanceforeigncorrespondent.com/">Freelance Foreign Correspondent</a></div></div>
+    <div><div class="button"><a href="https://www.datadrum.com/">Data Drum</a></div></div>
     <div><div class="button"><a href="https://www.musicgoeson.com/">Music Goes On</a></div></div>
+    <div><div class="button"><a href="https://storage.googleapis.com/girishnet/index.htm">My First Website</a></div></div>
+    
 
     <br><br>
 
