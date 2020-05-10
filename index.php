@@ -22,6 +22,23 @@ ob_start( 'ob_gzhandler' );
 https://www.w3schools.com/howto/tryhow_css_fullpage_demo.htm
 */
 
+require_once 'vendor/autoload.php';
+
+use \DrewM\MailChimp\MailChimp; //https://github.com/drewm/mailchimp-api
+
+if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+    if (isset($_POST['email']))
+    {
+        require_once("mailchimpapikey.php"); // Contains nothing but $MailChimpAPIKey = "...";
+        $MailChimp = new MailChimp($MailChimpAPIKey);
+        $MailChimp->post("lists/10a1d2bb93/members", [
+            'email_address' => $_POST['email'],
+            'status'        => 'subscribed',
+        ]);
+    }
+}
+
 $iPod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $iPhone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $iPad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
@@ -35,6 +52,8 @@ else
 {
     $mobile = false;
 }
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -159,6 +178,20 @@ input:focus
 <body bgcolor=#000000>
 
 <div class="bgimg">
+
+<?php
+if($_SERVER["REQUEST_METHOD"] == "POST")
+{
+  if (isset($_POST['email']))
+  {
+?>
+<div><div class="text"><font size=2><CENTER>You're subscribed. Thank you!</CENTER></font></div></div>
+<br><br>
+<?php
+  }
+}
+?>
+
   <div class="caption"><br><br>
 
     <div><div class="button"><font size=7 style="letter-spacing: 10px;"><b>GIRISH GUPTA</b></font></div></div>
@@ -226,18 +259,11 @@ input:focus
 
     <div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>Receive the occasional update about what I'm up to.</font>
     <br><br>
-    <!-- Begin Mailchimp Signup Form -->
-    <div id="mc_embed_signup">
-    <form action="https://girish-gupta.us6.list-manage.com/subscribe/post?u=8deb0bb0f3dfe79212f9cef9c&amp;id=10a1d2bb93" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-      <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email" size=40>
-        <div class="response" id="mce-error-response" style="display:none"></div>
-        <div class="response" id="mce-success-response" style="display:none"></div>
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8deb0bb0f3dfe79212f9cef9c_10a1d2bb93" tabindex="-1" value=""></div>
+    <form action="/" method="post">
+      <input type="email" value="" name="email"  placeholder="Email" size=40>
         <br><br>
-        <input type="submit" value="Sign Up!" name="subscribe" id="mc-embedded-subscribe" class="ActualButton">
+        <input type="submit" value="Sign Up!" name="subscribe"class="ActualButton">
     </form>
-    </div>
-    <!--End mc_embed_signup-->
     </div>
 
     <br><br>
