@@ -161,7 +161,7 @@ input:focus
 <script type="text/javascript">
 function AddToMailingList(email){
   $.post("addtomailinglist.php", {email: email} , function(data){
-            $("#result").html(data);
+            $("#mailinglistresult").html(data);
           });}
 </script>
 </head>
@@ -239,7 +239,7 @@ function AddToMailingList(email){
       <input type="email" value="" id="email" placeholder="Email" size=40>
         <br><br>
         <input type="submit" value="Sign Up!" name="subscribe" class="ActualButton" onClick=AddToMailingList(document.getElementById("email").value)>
-    <br><br><div id="result"></div>
+    <br><br><div id="mailinglistresult"></div>
     </div>
 
     <br><br>
