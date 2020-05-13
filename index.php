@@ -202,7 +202,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 
     <div class="text">
 
-      Girish is a trained physicist, has two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things work. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
+      Girish has a background in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things work. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
       <br><br>
       <hr width=80%>
       <br>
