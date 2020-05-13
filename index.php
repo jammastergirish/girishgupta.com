@@ -22,23 +22,6 @@ ob_start( 'ob_gzhandler' );
 https://www.w3schools.com/howto/tryhow_css_fullpage_demo.htm
 */
 
-require_once 'vendor/autoload.php';
-
-use \DrewM\MailChimp\MailChimp; //https://github.com/drewm/mailchimp-api
-
-if($_SERVER["REQUEST_METHOD"] == "POST")
-{
-    if (isset($_POST['email']))
-    {
-        require_once("mailchimpapikey.php"); // Contains nothing but $MailChimpAPIKey = "...";
-        $MailChimp = new MailChimp($MailChimpAPIKey);
-        $MailChimp->post("lists/10a1d2bb93/members", [
-            'email_address' => $_POST['email'],
-            'status'        => 'subscribed',
-        ]);
-    }
-}
-
 $iPod = strpos($_SERVER['HTTP_USER_AGENT'],"iPod");
 $iPhone = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
 $iPad = strpos($_SERVER['HTTP_USER_AGENT'],"iPad");
@@ -60,7 +43,9 @@ else
 <head>
 <title>Girish Gupta</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/9057082ce7.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <style>
 body, html
 {
@@ -173,24 +158,16 @@ input:focus
 
   gtag('config', 'UA-151140334-1');
 </script>
-<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+<script type="text/javascript">
+function AddToMailingList(email){
+  $.post("addtomailinglist.php", {email: email} , function(data){
+            $("#result").html(data);
+          });}
+</script>
 </head>
 <body bgcolor=#000000>
 
 <div class="bgimg">
-
-<?php
-if($_SERVER["REQUEST_METHOD"] == "POST")
-{
-  if (isset($_POST['email']))
-  {
-?>
-<div><div class="text"><font size=2><CENTER>You're subscribed. Thank you!</CENTER></font></div></div>
-<br><br>
-<?php
-  }
-}
-?>
 
   <div class="caption"><br><br>
 
@@ -257,13 +234,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
     }
     ?>
 
-    <div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>Receive the occasional update about what I'm up to.</font>
+    <div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>Receive the occasional update about what I'm up to.
     <br><br>
-    <form action="/" method="post">
-      <input type="email" value="" name="email"  placeholder="Email" size=40>
+      <input type="email" value="" id="email" placeholder="Email" size=40>
         <br><br>
-        <input type="submit" value="Sign Up!" name="subscribe"class="ActualButton">
-    </form>
+        <input type="submit" value="Sign Up!" name="subscribe" class="ActualButton" onClick=AddToMailingList(document.getElementById("email").value)>
+    <br><br><div id="result"></div>
     </div>
 
     <br><br>
