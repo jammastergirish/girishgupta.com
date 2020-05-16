@@ -163,7 +163,7 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      Girish has a background in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things work. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
+      Girish has a background in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things happen. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
       <br><br>
       <hr width=80%>
       <br>
@@ -183,19 +183,19 @@ function AddToMailingList(email){
       <br><br>
       <img src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      Girish has lived and worked across the world, often in its most hostile environments. As well as Venezuela, he reported from Egypt, Iraq, Afghanistan, Cuba, Colombia, Mexico and many others.
+      Girish has lived and worked across the world, often in its most hostile environments: Venezuela, Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico, India and many others.
       <br><br>
-      He went beyond traditional media by bringing math and code to journalism, automating story-writing and, wanting to properly understand the roots of Venezuela’s humanitarian crisis, creating a web and mobile app to provide thousands of people with live and historic data on the country’s dire economy. 
+      He went beyond traditional media by bringing math and code to journalism, automating story-writing and, wanting to properly understand the roots of Venezuela’s humanitarian crisis, creating software to provide thousands of people with live and historic data on the country’s dire economy. 
       <br><br>
       <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      He expanded the <i>Venezuela Econ</i> platform into a company, <i>Data Drum</i>, which offered automated, clean and elegant data—intersecting data science, journalism and finance.
+      He expanded the <i>Venezuela Econ</i> platform into a company, <i>Data Drum</i>, which offered automated, clean and elegant global macroeconomic data. He failed, though, to make this profitable.
       <br><br>
       <video width=80% controls muted style="border-width: 5px;   border-color: black;   border-style: solid;">
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      In Mumbai, he created a data science unit at a public policy non-profit think/do tank. It worked with government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
+      In Mumbai, he created a data science unit at a public policy non-profit that worked with government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
       <br><br>
       Now, as Chief Technology Officer at Stanford-conceived, France-based startup <i>Deepnews.ai</i>, Girish is building a machine learning algorithm to help identify quality journalism.
       
