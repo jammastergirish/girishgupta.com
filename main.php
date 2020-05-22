@@ -161,6 +161,11 @@ function AddToMailingList(email){
 
     <img src="headshot.jpg" width=200 height=200 alt="Girish Gupta" border=5><br><br>
 
+    <div><div class="button"><a href="https://journalism.girishgupta.com/">Journalism</a></div></div>
+    <br>
+    <div><div class="button"><a href="https://photos.girishgupta.com/">Photography</a></div></div>
+    <br>
+
     <div class="text">
 
       Girish has a background in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things happen. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity.
@@ -228,10 +233,6 @@ function AddToMailingList(email){
 
     <br><br>
 
-    <div><div class="button"><a href="https://journalism.girishgupta.com/">Journalism</a></div></div>
-    <br>
-    <div><div class="button"><a href="https://photos.girishgupta.com/">Photography</a></div></div>
-    <br>
     <div><div class="button"><a href="https://science.girishgupta.com/">Science</a></div></div>
 
     <br><br>
