@@ -2,18 +2,22 @@
 
 require_once 'vendor/autoload.php';
 
-use \DrewM\MailChimp\MailChimp; //https://github.com/drewm/mailchimp-api
+use Google\Cloud\Firestore\FirestoreClient;
+$db = new FirestoreClient();
 
 if (isset($_POST['email']))
 {
-    require_once("mailchimpapikey.php"); // Contains nothing but $MailChimpAPIKey = "...";
-    $MailChimp = new MailChimp($MailChimpAPIKey);
-    $MailChimp->post("lists/10a1d2bb93/members", [
-        'email_address' => $_POST['email'],
-        'status'        => 'subscribed',
-    ]);
+    $data = [
+        'date' => date('Y-m-d'),
+        'email' => $_POST['email']
+    ];
+    $db->collection('emails')->add($data);
 
     echo "You're subscribed! Thank you.";
+}
+else
+{
+    echo "Error";
 }
 
 ?>
