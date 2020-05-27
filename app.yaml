@@ -11,7 +11,7 @@ handlers:
     secure: always
 
 automatic_scaling:
-  min_instances: 1
+  min_instances: 0
   max_instances: 4
   max_idle_instances: 1
   target_cpu_utilization: 0.95
