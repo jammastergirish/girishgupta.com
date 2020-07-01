@@ -167,7 +167,7 @@ function AddToMailingList(email){
       <br><br>
       <hr width=80%>
       <br>
-      Girish started teaching himself to code at eleven, writing software and building relational database-driven websites from scratch. A popular music site he created in his early teens, in 2000, was listed by <i>MTV</i> as one of the then nascent web’s top twenty sources. 
+      Girish started teaching himself to code at eleven, writing software and building database-driven websites from scratch. A popular music site he created in his early teens, in 2000, was listed by <i>MTV</i> as one of the then nascent web’s top twenty sources. 
       <br><br>
       <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
