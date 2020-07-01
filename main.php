@@ -189,7 +189,7 @@ function AddToMailingList(email){
       <br><br>
       <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      He expanded the <i>Venezuela Econ</i> platform into a company, <i>Data Drum</i>, which offered automated, clean and elegant global macroeconomic data. He failed, though, to make this profitable.
+      He expanded the <i>Venezuela Econ</i> platform into a company, <i>Data Drum</i>, which offered automated, clean and elegant global macroeconomic data. He failed, though, to make it profitable.
       <br><br>
       <video width=80% controls muted style="border-width: 5px;   border-color: black;   border-style: solid;">
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
