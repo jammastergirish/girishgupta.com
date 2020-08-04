@@ -197,7 +197,7 @@ function AddToMailingList(email){
       <br><br>
       In Mumbai, he created a data science unit at a public policy non-profit that worked with government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
       <br><br>
-      Now, as Chief Technology Officer at Stanford-conceived, France-based startup <i>Deepnews.ai</i>, Girish is building a machine learning algorithm to help identify quality journalism.
+      Now, as Chief Technology Officer at Stanford-conceived, France-based startup <i>Deepnews</i>, Girish is building a machine learning algorithm to help identify quality journalism.
       
     </div>
 
@@ -236,7 +236,7 @@ function AddToMailingList(email){
 
     <br><br>
 
-    <div><div class="button"><a href="https://www.deepnews.ai/">Deepnews.ai</a></div></div>
+    <div><div class="button"><a href="https://www.deepnews.ai/">Deepnews</a></div></div>
     <div><div class="button"><a href="https://www.accordingtodocuments.com/">According to Documents</a></div></div>
     <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
     <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
