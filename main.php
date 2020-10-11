@@ -163,39 +163,43 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      Girish has a background in physics, two decades of full-stack programming experience and his investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from <i>Reuters</i> to the <i>New Yorker</i>. His analytical mind, grit and ability to get things done have allowed him to land in many difficult, remote places with no money or contacts and make things happen. As well as deep reporting, he has created products and startups, advised government and enjoys playing music, keeping fit and always satiating his curiosity. 
+      Hi, I'm Girish! I'm from England and am currently bouncing around Europe before moving to the United States in 2021.
+      <br><br>
+      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. My writing, photography, video and audio have led front pages and news broadcasts—and my investigations have hit the highest rungs of corrupt government and corporations. Aside from reporting, I have created products and startups, enjoy playing music, keeping fit and, ultimately, satiating my curiosity.
+      <br><br>
+      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
       <br><br>
       <hr width=80%>
       <br>
-      Girish started teaching himself to code at eleven, assembling computers, writing software and building database-driven websites from scratch. A popular music site he created in his early teens, in 2000, was listed by <i>MTV</i> as one of the then nascent web’s top twenty sources. 
+      I started teaching myself to code at eleven, assembling computers, writing software and building database-driven websites from scratch. A popular music site I created in my early teens, in 2000, was listed by MTV as one of the then nascent web’s top twenty sources. 
       <br><br>
       <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      He was the first person in his family to go to university and began studying math, physics, chemistry and geology at Cambridge though, not excited by the medieval city’s social life, moved on to Manchester where he focused on physics. His interests lie broadly on the theoretical end of the spectrum—spacetime, quantum mechanics and particles. His Master’s project, the abstract to which was published, was a simulation of the heart to investigate atrial fibrillation.
+      I was the first person in my family to go to university and began studying math, physics, chemistry and geology at Cambridge though, not excited by the medieval city’s social life, I moved on to Manchester where I focused on physics. My primary interests lie broadly on the theoretical end of the spectrum—spacetime, quantum mechanics and particles—though my Master’s project, the abstract to which was published, was more practical: a simulation of the heart to investigate atrial fibrillation.
       <br><br>
       <img src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      As a reporter, Girish was based primarily in Venezuela for nearly a decade where he produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, he traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others—and reported across TV, photos, radio and text.
+      I then bought a one-way ticket to Latin America to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
       <br><br>
       <img src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      On finishing his Master's, Girish had bought a one-way ticket to become a foreign correspondent. As a freelancer, he investigated diamond smuggling from illegal jungle mines in the Amazon, Glencore profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. He worked with some 40 news outlets and stood up to sloppy reporting, slow payments and unpaid work in his own industry—as his career began, not just at its height. As a Senior Correspondent at <i>Reuters</i> covering Venezuela, Girish demonstrated—always with documents—high-level, multi-billion-dollar government corruption, military missile inventories, exaggeration of electoral results and that the country’s Chief Justice was arrested on suspicion of murder.
+      As a freelancer, I investigated diamond smuggling from illegal jungle mines in the Amazon, Glencore profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. I worked with some 40 news outlets and stood up to sloppy reporting, slow payments and unpaid work in my own industry—as my career began, not just at its height. As a Senior Correspondent at Reuters covering Venezuela, I demonstrated—always with documents—high-level, multi-billion-dollar government corruption, military missile inventories, exaggeration of electoral results and that the country’s Chief Justice was arrested on suspicion of murder. 
       <br><br>
       <img src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      He went beyond traditional media by bringing math and code to journalism, automating story-writing and, wanting to properly understand the roots of Venezuela’s humanitarian crisis, creating software to provide thousands of people with live and historic data on the country’s dire economy. 
+      I went beyond traditional media by bringing math and code to journalism, automating data acquisition, simple story-writing and other mind-numbing tasks that pull resources from actual reporting. And, wanting to properly understand the roots of Venezuela’s humanitarian crisis, I created software to provide thousands of people with live and historic data on the country’s dire economy.
       <br><br>
       <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      He expanded the <i>Venezuela Econ</i> platform into a company, <i>Data Drum</i>, which offered automated, clean and elegant global macroeconomic data.
+      I left Reuters and expanded the Venezuela Econ platform into a company, Data Drum, which offered automated, clean and elegant global macroeconomic data. 
       <br><br>
       <video width=80% controls muted style="border-width: 5px;   border-color: black;   border-style: solid;">
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      In Mumbai, he created a data science unit at a public policy non-profit that advised government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
+      I spent just over a year in Mumbai where I created a data science unit at a public policy non-profit that advised government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
       <br><br>
-      Now, as Chief Technology Officer at Stanford-conceived, France-based startup <i>Deepnews</i>, Girish is building a machine learning algorithm to help identify quality journalism.
+      Now, as Chief Technology Officer at Stanford-conceived startup Deepnews.ai, I’m building a machine learning algorithm to identify quality journalism at scale.
       
     </div>
 
