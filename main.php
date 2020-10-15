@@ -165,7 +165,7 @@ function AddToMailingList(email){
 
       Hi, I'm Girish! I'm from England and am currently bouncing around Europe before moving to the United States in 2021.
       <br><br>
-      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. My writing, photography, video and audio have led front pages and news broadcasts—and my investigations have hit the highest rungs of corrupt government and corporations. I’m now CTO of an artificial intelligence startup using machine learning to identify quality journalism. I have created products and startups, enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
+      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. My writing, photography, video and audio have led front pages and news broadcasts—and my investigations have hit the highest rungs of corrupt government and corporations. I’m now CTO of a startup using machine learning to identify quality journalism. I have created products and startups, enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
       <br><br>
@@ -179,7 +179,7 @@ function AddToMailingList(email){
       <br><br>
       <img src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I then bought a one-way ticket to Latin America to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
+      I then bought a one-way ticket to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
       <br><br>
       <img src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
@@ -187,7 +187,7 @@ function AddToMailingList(email){
       <br><br>
       <img src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I went beyond traditional media by bringing math and code to journalism, automating data acquisition, simple story-writing and other mind-numbing tasks that pull resources from actual reporting. And, wanting to properly understand the roots of Venezuela’s humanitarian crisis, I created software to provide thousands of people with live and historic data on the country’s dire economy.
+      I went beyond traditional media by bringing math and code to journalism, automating data acquisition, simple story-writing and other mind-numbing tasks that pull resources from actual reporting. And, wanting to properly understand the roots of Venezuela’s humanitarian crisis, I created web and mobile applications to provide thousands of people with live and historic data on the country’s dire economy.
       <br><br>
       <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
@@ -197,10 +197,10 @@ function AddToMailingList(email){
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      I spent just over a year in Mumbai where I created a data science unit at a public policy non-profit that advised government in applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
+      I then spent just over a year in Mumbai where I created a data science unit at a public policy non-profit that advised government on applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
       <br><br>
-      Now, as Chief Technology Officer at Stanford-conceived startup Deepnews.ai, I’m building a machine learning algorithm to identify quality journalism at scale.
-      
+      Now, as Chief Technology Officer at Stanford-conceived, Google-funded startup Deepnews.ai, I’m building a machine learning algorithm to identify quality journalism at scale.
+
     </div>
 
     <br><br>
