@@ -165,7 +165,7 @@ function AddToMailingList(email){
 
       Hi, I'm Girish! I'm from England and am currently bouncing around Europe before moving to the United States in 2021.
       <br><br>
-      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. My writing, photography, video and audio have led front pages and news broadcasts—and my investigations have hit the highest rungs of corrupt government and corporations. I’m now CTO of a startup using machine learning to identify quality journalism. I have created products and startups, enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
+      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I’m now CTO of a machine learning startup that aims to identify quality journalism. Throughout my varied career, I have used strong analytical skills to do everything from solve differential equations and architect neural networks to demonstrate multi-billion dollar government corruption and stay safe amid war and violence. I enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
       <br><br>
