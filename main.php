@@ -106,6 +106,11 @@ a:hover
   font-size: 15px;
 }
 
+.textlink
+{
+  text-decoration: underline;
+}
+
 input
 {
         box-shadow: none;
@@ -165,21 +170,66 @@ function AddToMailingList(email){
 
       Hi, I'm Girish! I'm from England and am currently bouncing around Europe before moving to the United States in 2021.
       <br><br>
-      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I’m now CTO of a machine learning startup that aims to identify quality journalism. Throughout my varied career, I have used strong analytical skills to do everything from solve differential equations and architect neural networks to demonstrate multi-billion dollar government corruption and stay safe amid war and violence. I enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
+      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. Throughout my varied career, I have used strong analytical skills to do everything from solve differential equations and architect neural networks to demonstrate multi-billion dollar government corruption and stay safe amid war and violence. I enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+     
+     </div>
+
+     <br><br>
+
+     <div><div class="button"><a href="mailto:girish@girishgupta.com">Get in touch by email</a></div></div>
+
+<br><br>
+
+<?php
+if($mobile)
+{
+  $width = 80;
+}
+else
+{
+  $width = 25;
+}
+?>
+
+<div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>
+<br>
+  <input type="email" value="" id="email" placeholder="Your email" style="width:80%;">
+    <br><br>
+    <input type="submit" value="Sign Up!" name="subscribe" class="ActualButton" onClick=AddToMailingList(document.getElementById("email").value)>
+<br><br><div id="mailinglistresult"></div>
+</div>
+
+<br><br>
+
+<div><div class="button"><a href="https://journalism.girishgupta.com/">Journalism</a></div></div>
+<br>
+<div><div class="button"><a href="https://photos.girishgupta.com/">Photography</a></div></div>
+<br>
+<div><div class="button"><a href="https://science.girishgupta.com/">Science</a></div></div>
+
+<br><br>
+
+     <div class="text">
+
+    <div class=button>About me</div>
+<br>
+      I grew up in Slough, a town just outside London scoffed at by anyone who knows Britain for being both the setting for the comedy program The Office and the subject of a 1937 John Betjeman poem which opens, “Come friendly bombs and fall on Slough! It isn’t fit for humans now.” My mom and I lived in Chalvey, the poor part of Slough that people from Slough look down upon. Thankfully, when I was around nine years old, we got out.
       <br><br>
-      <hr width=80%>
-      <br>
-      I started teaching myself to code at eleven, assembling computers, writing software and building database-driven websites from scratch. A popular music site I created in my early teens, in 2000, was listed by MTV as one of the then nascent web’s top twenty sources. 
+      I started teaching myself to code at eleven, assembling computers, writing software and building database-driven websites from scratch. A popular music site I created in my early teens, in 2000, was listed by MTV as one of the then nascent web’s top twenty sources. I received scores of free—sometimes pre-release—CDs from record companies while honing my skills as a programmer. 
       <br><br>
       <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I was the first person in my family to go to university and began studying math, physics, chemistry and geology at Cambridge though, not excited by the medieval city’s social life, I moved on to Manchester where I focused on physics. My primary interests lie broadly on the theoretical end of the spectrum—spacetime, quantum mechanics and particles—though my Master’s project, the abstract to which was published, was more practical: a simulation of the heart to investigate atrial fibrillation.
+      I was the first person in my family to go to university and began studying math, physics, chemistry and geology at Cambridge though, not satisfied with the medieval city’s social life, I moved on to Manchester where I focused on physics. My primary interests lie broadly on the theoretical end of the spectrum—spacetime, quantum mechanics and particles—though my Master’s project, the abstract to which was published, was more practical: a simulation of the heart to investigate atrial fibrillation.
       <br><br>
       <img src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I then bought a one-way ticket to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
+      Outside physics, I enjoyed Manchester's nightlife, played a big role the student paper and went backpacking around South America. It was a road well-traveled by others but new to me, replete with hours-long bus journeys, a visit to a cocaine-filled prison and my first taste of tear gas and rubber bullets. On that trip, a sandfly left me with the rare flesh-eating disease leishmaniasis.
+      <br><br>
+      <img src="men.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <br><br>
+      After graduating, I bought a one-way ticket to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
       <br><br>
       <img src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
@@ -202,39 +252,6 @@ function AddToMailingList(email){
       Now, as Chief Technology Officer at Stanford-conceived, Google-funded startup Deepnews.ai, I’m building a machine learning algorithm to identify quality journalism at scale.
 
     </div>
-
-    <br><br>
-
-    <div><div class="button"><a href="mailto:girish@girishgupta.com">E-Mail</a><br><font size=2>(<a href="PublicKey.asc">PGP Key</a>)</font></div></div>
-
-    <br><br>
-
-    <?php
-    if($mobile)
-    {
-      $width = 80;
-    }
-    else
-    {
-      $width = 25;
-    }
-    ?>
-
-    <div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>
-    <br>
-      <input type="email" value="" id="email" placeholder="Email" size=40>
-        <br><br>
-        <input type="submit" value="Sign Up!" name="subscribe" class="ActualButton" onClick=AddToMailingList(document.getElementById("email").value)>
-    <br><br><div id="mailinglistresult"></div>
-    </div>
-
-    <br><br>
-
-    <div><div class="button"><a href="https://journalism.girishgupta.com/">Journalism</a></div></div>
-    <br>
-    <div><div class="button"><a href="https://photos.girishgupta.com/">Photography</a></div></div>
-    <br>
-    <div><div class="button"><a href="https://science.girishgupta.com/">Science</a></div></div>
 
     <br><br>
 
