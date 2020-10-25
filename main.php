@@ -108,7 +108,7 @@ a:hover
 
 .textlink
 {
-  text-decoration: underline;
+  color: #FED998;
 }
 
 input
@@ -168,9 +168,9 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      Hi, I'm Girish! I'm from England and am currently bouncing around Europe before moving to the United States in 2021.
+      Hi, I'm Girish! I'm from England and am currently in Europe before moving to the United States.
       <br><br>
-      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. Throughout my varied career, I have used strong analytical skills to do everything from solve differential equations and architect neural networks to demonstrate multi-billion dollar government corruption and stay safe amid war and violence. I enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
+      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from solve differential equations and architect neural networks to demonstrate multi-billion dollar government corruption and stay safe amid conflict and violence. I enjoy playing music, photography, keeping fit and, ultimately, satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
      
@@ -178,7 +178,7 @@ function AddToMailingList(email){
 
      <br><br>
 
-     <div><div class="button"><a href="mailto:girish@girishgupta.com">Get in touch by email</a></div></div>
+     <div><div class="button"><a href="mailto:girish@girishgupta.com">Email</a></div></div>
 
 <br><br>
 
@@ -206,8 +206,8 @@ else
 <div><div class="button"><a href="https://journalism.girishgupta.com/">Journalism</a></div></div>
 <br>
 <div><div class="button"><a href="https://photos.girishgupta.com/">Photography</a></div></div>
-<br>
-<div><div class="button"><a href="https://science.girishgupta.com/">Science</a></div></div>
+<!-- <br>
+<div><div class="button"><a href="https://science.girishgupta.com/">Science</a></div></div> -->
 
 <br><br>
 
@@ -215,55 +215,61 @@ else
 
     <div class=button>About me</div>
 <br>
-      I grew up in Slough, a town just outside London scoffed at by anyone who knows Britain for being both the setting for the comedy program The Office and the subject of a 1937 John Betjeman poem which opens, “Come friendly bombs and fall on Slough! It isn’t fit for humans now.” My mom and I lived in Chalvey, the poor part of Slough that people from Slough look down upon. Thankfully, when I was around nine years old, we got out.
+
+      I grew up in Slough, a town just outside London scoffed at by anyone who knows it for being both the setting for <a href="https://www.youtube.com/watch?v=1mlevv9oFuA" class=textlink>The Office</a> and the subject of a 1937 <a href="http://www-cdr.stanford.edu/intuition/Slough.html" class=textlink>poem</a> which opens, "Come friendly bombs and fall on Slough! It isn’t fit for humans now." We lived in Chalvey, the poor part of Slough that people from Slough look down upon. Thankfully, when I was around nine years old, we got out.
       <br><br>
-      I started teaching myself to code at eleven, assembling computers, writing software and building database-driven websites from scratch. A popular music site I created in my early teens, in 2000, was listed by MTV as one of the then nascent web’s top twenty sources. I received scores of free—sometimes pre-release—CDs from record companies while honing my skills as a programmer. 
+      I started teaching myself to code at eleven, assembling computers, writing <a href="https://github.com/jammastergirish/BPMCounter" class=textlink>software</a> and building database-driven <a href="https://storage.googleapis.com/girishnet/index.htm" class=textlink>websites</a> from scratch. A <a href="https://www.musicgoeson.com/" class=textlink>popular music site</a> I created in my early teens was listed by MTV as one of the then nascent web’s top twenty sources. I received scores of free CDs from record companies while unwittingly honing my skills as a programmer, reporter, writer and entrepreneur. 
       <br><br>
       <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I was the first person in my family to go to university and began studying math, physics, chemistry and geology at Cambridge though, not satisfied with the medieval city’s social life, I moved on to Manchester where I focused on physics. My primary interests lie broadly on the theoretical end of the spectrum—spacetime, quantum mechanics and particles—though my Master’s project, the abstract to which was published, was more practical: a simulation of the heart to investigate atrial fibrillation.
+      I was the first person in my family to go to university and began studying Natural Sciences at Cambridge though, not excited by the medieval city's social life, moved on to Manchester where I focused on Physics. My primary interests lie in spacetime, quantum mechanics and particles. However, my Master’s project, the <a href="https://www.physoc.org/abstracts/role-of-the-pulmonary-vein-in-the-genesis-of-atrial-fibrillation-insights-from-a-biophysically-detailed-computational-model/" class=textlink>abstract to which was published</a>, was more practical: a simulation of the heart to investigate atrial fibrillation.
       <br><br>
       <img src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      Outside physics, I enjoyed Manchester's nightlife, played a big role the student paper and went backpacking around South America. It was a road well-traveled by others but new to me, replete with hours-long bus journeys, a visit to a cocaine-filled prison and my first taste of tear gas and rubber bullets. On that trip, a sandfly left me with the rare flesh-eating disease leishmaniasis.
+      Outside physics, I ran the news section of the <a href="https://journalism.girishgupta.com/article.php?id=74" class=textlink>student</a> <a href="https://www.theguardian.com/student-media-awards-2010/winners-runners-up-2010" class=textlink>newspaper</a>, learned some discipline in the Officers' Training Corps and went backpacking around South America. On that trip, a sandfly left me with the rare flesh-eating bug <a href="https://www.youtube.com/watch?v=Ywqtf5hX3S8" class=textlink>leishmaniasis</a>—and three weeks on an <a href="https://journalism.girishgupta.com/sp.php?id=10" class=textlink>intravenuous drip</a> of sodium stibogluconate.
       <br><br>
-      <img src="men.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
-      <br><br>
-      After graduating, I bought a one-way ticket to become a foreign correspondent. As a reporter, I was based primarily in Venezuela for nearly a decade where I produced groundbreaking investigations, covered daily clashes and reported on a humanitarian crisis. From Caracas, I traveled the world—often its most hostile environments: Colombia, Egypt, Iraq, Afghanistan, Cuba, Mexico and many others.
+      After graduating, I bought a one-way ticket to become a foreign correspondent. I was based primarily in <a href="https://journalism.girishgupta.com/by.php?by=country&what=venezuela" class=textlink>Venezuela</a> for nearly a decade where I produced groundbreaking investigations, covered <a href="https://journalism.girishgupta.com/sp.php?id=858" class=textlink>daily</a> <a href="https://journalism.girishgupta.com/sp.php?id=831" class=textlink>clashes</a> and reported on a <a href="https://journalism.girishgupta.com/sp.php?id=976" class=textlink>humanitarian</a> <a href="https://journalism.girishgupta.com/sp.php?id=855" class=textlink>crisis</a>. From Caracas, I traveled the world—often its most hostile environments: <a href="https://journalism.girishgupta.com/by.php?by=country&what=colombia" class=textlink>Colombia</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=egypt" class=textlink>Egypt</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=iraq" class=textlink>Iraq</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=afghanistan" class=textlink>Afghanistan</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=cuba" class=textlink>Cuba</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=mexico" class=textlink>Mexico</a> and many others.
       <br><br>
       <img src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      As a freelancer, I investigated diamond smuggling from illegal jungle mines in the Amazon, Glencore profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. I worked with some 40 news outlets and stood up to sloppy reporting, slow payments and unpaid work in my own industry—as my career began, not just at its height. As a Senior Correspondent at Reuters covering Venezuela, I demonstrated—always with documents—high-level, multi-billion-dollar government corruption, military missile inventories, exaggeration of electoral results and that the country’s Chief Justice was arrested on suspicion of murder. 
+      As a freelancer, I investigated <a href="https://journalism.girishgupta.com/sp.php?id=595" class=textlink>diamond smuggling</a> from illegal jungle mines in the Amazon, <a href="https://journalism.girishgupta.com/article.php?id=577" class=textlink>Glencore</a> profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. For five years, I ran a sustainable business in a notoriously difficult industry. I worked with some 40 news outlets—across text, photos, radio and television—and stood up to sloppy reporting, slow payments and <a href="https://journalism.girishgupta.com/article.php?id=240" class=textlink>unpaid work</a>.
+      <br><br>
+      As a Senior Correspondent at Reuters covering Venezuela, I demonstrated—always with documents—high-level, multi-billion-dollar <a href="https://journalism.girishgupta.com/sp.php?id=977" class=textlink>government corruption</a>, military <a href="https://journalism.girishgupta.com/sp.php?id=1008" class=textlink>missile inventories</a>, exaggeration of <a href="https://journalism.girishgupta.com/sp.php?id=2010" class=textlink>electoral results</a> and that the country’s Chief Justice was <a href="https://journalism.girishgupta.com/sp.php?id=1024" class=textlink>arrested on suspicion of murder</a>. During my final few months in Venezuela, I produced the in-Venezuela elements of a <a href="https://journalism.girishgupta.com/sp.php?id=2020" class=textlink>documentary</a> on the country's downfall.
       <br><br>
       <img src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I went beyond traditional media by bringing math and code to journalism, automating data acquisition, simple story-writing and other mind-numbing tasks that pull resources from actual reporting. And, wanting to properly understand the roots of Venezuela’s humanitarian crisis, I created web and mobile applications to provide thousands of people with live and historic data on the country’s dire economy.
+      Wanting to properly understand the roots of Venezuela’s humanitarian crisis, I had <a href="https://journalism.girishgupta.com/sp.php?id=2011" class=textlink>created web and mobile applications</a> to provide live and historic data on the country's dire economy. They were used by thousands of people including politicians, investors and journalists for everything from live black market exchange rate fluctuations to details of the brisk money-printing fueling the world's highest inflation. I also wrote code to automate data acquisition, simple story-writing and other mind-numbing tasks that pull resources from reporting.
       <br><br>
       <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
       <br><br>
-      I left Reuters and expanded the Venezuela Econ platform into a company, Data Drum, which offered automated, clean and elegant global macroeconomic data. 
+      I left journalism and expanded the <a href="https://journalism.girishgupta.com/sp.php?id=2018" class=textlink>Venezuela Econ</a> platform into a company, <a href="https://www.datadrum.com" class=textlink>Data Drum</a>, which offered automated, clean and elegant global macroeconomic data for half a dozen countries. 
       <br><br>
       <video width=80% controls muted style="border-width: 5px;   border-color: black;   border-style: solid;">
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      I then spent just over a year in Mumbai where I created a data science unit at a public policy non-profit that advised government on applying computing to everything from urban planning and mapping to data governance and the COVID-19 response.
+      I then spent just over a year in Mumbai where I created a data science unit at a public policy <a href="https://www.idfcinstitute.org" class=textlink>non-profit</a>. I also created smaller-scale products of my own—<a href="https://www.globalotp.com" class=textlink>GlobalOTP</a>, <a href="https://www.readwise2roam.com" class=textlink>Readwise2Roam</a> and <a href="https://www.accordingtodocuments.com" class=textlink>According To Documents</a>.
       <br><br>
-      Now, as Chief Technology Officer at Stanford-conceived, Google-funded startup Deepnews.ai, I’m building a machine learning algorithm to identify quality journalism at scale.
+      Horrified by Mumbai's filth and pollution, my wife and I left for Europe where, as Chief Technology Officer at Stanford-conceived, Google-funded startup <a href="https://www.deepnews.ai" class=textlink>Deepnews.ai</a>, I’m building a machine learning algorithm to identify quality journalism at scale.
+
 
     </div>
 
-    <br><br>
+    <?php
 
-    <div><div class="button"><a href="https://www.deepnews.ai/">Deepnews</a></div></div>
-    <div><div class="button"><a href="https://www.accordingtodocuments.com/">According to Documents</a></div></div>
-    <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
-    <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
-    <!-- <div><div class="button"><a href="https://www.freelanceforeigncorrespondent.com/">Freelance Foreign Correspondent</a></div></div> -->
-    <div><div class="button"><a href="https://www.datadrum.com/">Data Drum</a></div></div>
-    <div><div class="button"><a href="https://www.musicgoeson.com/">Music Goes On</a></div></div>
-    <div><div class="button"><a href="https://storage.googleapis.com/girishnet/index.htm">First Website</a></div></div>
+    // <br><br>
+
+    // <div><div class="button"><a href="https://www.deepnews.ai/">Deepnews</a></div></div>
+    // <div><div class="button"><a href="https://www.accordingtodocuments.com/">According to Documents</a></div></div>
+    // <div><div class="button"><a href="https://www.readwise2roam.com/">Readwise2Roam</a></div></div>
+    // <div><div class="button"><a href="https://www.globalotp.com/">GlobalOTP</a></div></div>
+    // <!-- <div><div class="button"><a href="https://www.freelanceforeigncorrespondent.com/">Freelance Foreign Correspondent</a></div></div> -->
+    // <div><div class="button"><a href="https://www.datadrum.com/">Data Drum</a></div></div>
+    // <div><div class="button"><a href="https://www.musicgoeson.com/">Music Goes On</a></div></div>
+    // <div><div class="button"><a href="https://storage.googleapis.com/girishnet/index.htm">First Website</a></div></div>
     
+
+    ?>
 
     <br><br>
 
@@ -284,3 +290,12 @@ else
 
 </body>
 </html>
+
+<!-- I stood up to sloppy reporting, slow payments and unpaid work in my own industry. One UK national newspaper editor said I was an idiot who'd never make it in journalism when I suggested his paper pay for published work. After appearing on a BBC documentary on the subject, another newspaper wrote that my "career was over before it had begun." I regularly fined and took clients to court when they didn't pay on time. A top New York Times editor accused me of working for the Venezuelan government when I pointed out a factual error.
+
+
+At school, I was a "pain in the arse to teach" but had a "maverick mind" and a "love of learning one seldom now sees," according to an enthusiastic, old school chemistry teacher who, along with a similarly enthuasiastic physics teacher helped me find my way to university.
+
+—tired by its lack of rigor, penchant for ego over truth and underuse of post-1998 technology—
+
+I also automated data acquisition, simple story-writing and other mind-numbing tasks that pull resources from actual reporting. -->
