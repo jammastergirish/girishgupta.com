@@ -271,7 +271,15 @@ function AddToMailingList(email){
 
 function Story($url, $image, $headline, $publisher, $date)
 {
-  echo "<a href=\"".$url."\"><img src=\"".$image."\" width=150 height=150 align=left style=\"margin:10px\"><br><br>".$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
+  global $mobile;
+  $brs = "";
+  $imagewidth="100";
+  if (!$mobile)
+  {
+    $brs = "<br><br>";
+    $imagewidth = "150";
+  }
+  echo "<a href=\"".$url."\"><img src=\"".$image."\" width=".$imagewidth." height=".$imagewidth." align=left style=\"margin:10px\">".$brs.$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
 }
 
 ?>
