@@ -263,54 +263,6 @@ function AddToMailingList(email){
 
 <br><br>
 
-<div class=text style="text-align:left;">
-<div class="button">Journalism</div>
-<br>
-
-<?php
-
-function Story($url, $image, $headline, $publisher, $date)
-{
-  global $mobile;
-  $brs = "";
-  $imagewidth="100";
-  if (!$mobile)
-  {
-    $brs = "<br><br>";
-    $imagewidth = "150";
-  }
-  echo "<a href=\"".$url."\"><img src=\"".$image."\" width=".$imagewidth." height=".$imagewidth." align=left style=\"margin:10px\">".$brs.$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
-}
-
-?>
-
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=2020', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/2020.jpg', 'The Venezuela Crisis: State of Disaster', 'RealVision', 'December 2018'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1024', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1024.jpg', 'Special Report: How a defrocked judge became the chief enforcer for Maduro\'s Venezuela', 'Reuters', 'November 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=2010', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/2010.jpg', 'Exclusive: Venezuelan vote data casts doubt on turnout at Sunday poll', 'Reuters', 'August 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1017', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1017.jpg', 'Exclusive: At least 123 Venezuelan soldiers detained since protests - documents', 'Reuters', 'July 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1008', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1008.jpg', 'Exclusive: Venezuela holds 5,000 Russian surface-to-air MANPADS missiles', 'Reuters', 'May 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=995', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/995.jpg', 'Bomb classes and gun counts: trauma of Mosul children under Islamic State', 'Reuters', 'January 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=993', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/993.jpg', 'Iraqi sheep, locals, environment suffer Islamic State oil fires', 'Reuters', 'Jamuary 2017'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=977', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/977.jpg', 'Special Report: In Venezuela\'s murky oil industry, the deal that went too far', 'Reuters', 'July 2016'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=976', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/976.jpg', '\We want food!\' Looting and riots rock Venezuela daily', 'Reuters', 'June 2016'); ?>
-<br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=899', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/899.jpg', 'Could Low Oil Prices End Venezuela\'s Revolution?', 'New Yorker', 'November 2014'); ?>
-<br>
-
-<CENTER><a href="https://journalism.girishgupta.com/" target=_blank>More...</a></CENTER>
-
-</div>
-
-<br><br>
-
 <div class=text>
 
 <div class="button">Photos</div>
@@ -429,6 +381,54 @@ else
 
 
     </div>
+
+    <br><br>
+
+<div class=text style="text-align:left;">
+<div class="button">Journalism</div>
+<br>
+
+<?php
+
+function Story($url, $image, $headline, $publisher, $date)
+{
+  global $mobile;
+  $brs = "";
+  $imagewidth="100";
+  if (!$mobile)
+  {
+    $brs = "<br><br>";
+    $imagewidth = "150";
+  }
+  echo "<a href=\"".$url."\"><img src=\"".$image."\" width=".$imagewidth." height=".$imagewidth." align=left style=\"margin:10px\">".$brs.$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
+}
+
+?>
+
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=2020', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/2020.jpg', 'The Venezuela Crisis: State of Disaster', 'RealVision', 'December 2018'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1024', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1024.jpg', 'Special Report: How a defrocked judge became the chief enforcer for Maduro\'s Venezuela', 'Reuters', 'November 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=2010', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/2010.jpg', 'Exclusive: Venezuelan vote data casts doubt on turnout at Sunday poll', 'Reuters', 'August 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1017', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1017.jpg', 'Exclusive: At least 123 Venezuelan soldiers detained since protests - documents', 'Reuters', 'July 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=1008', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/1008.jpg', 'Exclusive: Venezuela holds 5,000 Russian surface-to-air MANPADS missiles', 'Reuters', 'May 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=995', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/995.jpg', 'Bomb classes and gun counts: trauma of Mosul children under Islamic State', 'Reuters', 'January 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=993', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/993.jpg', 'Iraqi sheep, locals, environment suffer Islamic State oil fires', 'Reuters', 'Jamuary 2017'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=977', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/977.jpg', 'Special Report: In Venezuela\'s murky oil industry, the deal that went too far', 'Reuters', 'July 2016'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=976', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/976.jpg', '\We want food!\' Looting and riots rock Venezuela daily', 'Reuters', 'June 2016'); ?>
+<br>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=899', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/899.jpg', 'Could Low Oil Prices End Venezuela\'s Revolution?', 'New Yorker', 'November 2014'); ?>
+<br>
+
+<CENTER><a href="https://journalism.girishgupta.com/" target=_blank>More...</a></CENTER>
+
+</div>
 
     <br><br>
 
