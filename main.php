@@ -188,6 +188,37 @@ input:focus
   }
 }
 
+
+
+/* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_title */
+
+.image_container {
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.75); /* Black see-through */
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 15px;
+  padding: 20px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.image_container:hover .overlay {
+  opacity: 1;
+}
+
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151140334-1"></script>
 <script>
@@ -236,40 +267,47 @@ function AddToMailingList(email){
 
 <div class="button">Photos</div>
 
+<?php
+
+function Image($file, $caption)
+{
+  echo "<div class=\"image_container\" style=\"width:100%\"><img src=\"".$file."\" alt=\"".$caption."\"><div class=\"overlay\">".$caption."</div></div>";
+}
+
+?>
+
 <br>
-
-
 
 <div class="row_images"> 
   <div class="column_images">
-    <img src="IMG_2125.jpg" style="width:100%">
-    <img src="IMG_4126.jpg" style="width:100%">
-    <img src="IMG_8371.jpg" style="width:100%">
-    <img src="IMG_1776.jpg" style="width:100%">
-    <img src="IMG_2976.jpg" style="width:100%">
-    <img src="IMG_8529.jpg" style="width:100%">
-    <img src="IMG_1675.jpg" style="width:100%">
-    <img src="IMG_0602.jpg" style="width:100%">
+    <?php Image('IMG_2125.jpg', 'Santa Elena, Venezuela'); ?>
+    <?php Image('IMG_4126.jpg', 'Santa Elena, Venezuela'); ?>
+    <?php Image('IMG_8371.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_1776.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_2976.jpg', 'Abu Dhabi, UAE'); ?>
+    <?php Image('IMG_8529.jpg', 'Montreux, Switzerland'); ?>
+    <?php Image('IMG_1675.jpg', 'Petare, Venezuela'); ?>
+    <?php Image('IMG_0602.jpg', 'Angel Falls, Venezuela'); ?>
   </div>
   <div class="column_images">
-    <img src="993-1.jpg" style="width:100%">
-    <img src="993-9.jpg" style="width:100%">
-    <img src="IMG_9927.jpg" style="width:100%">
-    <img src="IMG_0806.jpg" style="width:100%">
-    <img src="IMG_8636.jpg" style="width:100%">
-    <img src="IMG_9040.jpg" style="width:100%">
-    <img src="IMG_8933.jpg" style="width:100%">
-    <img src="IMG_2109.jpg" style="width:100%">
+    <?php Image('993-1.jpg', 'Qayyarah, Iraq'); ?>
+    <?php Image('993-9.jpg', 'Qayyarah, Iraq'); ?>
+    <?php Image('IMG_9927.jpg', 'Zaatari, Jordan'); ?>
+    <?php Image('IMG_0806.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_8636.jpg', 'Kabul, Afghanistan'); ?>
+    <?php Image('IMG_9040.jpg', 'Kabul, Afghanistan'); ?>
+    <?php Image('IMG_8933.jpg', '23 de enero, Venezuela'); ?>
+    <?php Image('IMG_2109.jpg', 'Yellowstone, USA'); ?>
   </div>  
   <div class="column_images">
-    <img src="IMG_4599.jpg" style="width:100%">
-    <img src="IMG_5388.jpg" style="width:100%">
-    <img src="IMG_7404.jpg" style="width:100%">
-    <img src="IMG_0739.jpg" style="width:100%">
-    <img src="IMG_8006.jpg" style="width:100%">
-    <img src="667-1.jpg" style="width:100%">
-    <img src="809-1.jpg" style="width:100%">
-    <img src="IMG_0325.jpg" style="width:100%">
+    <?php Image('IMG_4599.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_5388.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_7404.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_0739.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('IMG_8006.jpg', 'Caracas, Venezuela'); ?>
+    <?php Image('667-1.jpg', 'Venezuela'); ?>
+    <?php Image('809-1.jpg', 'Georgetown, Guyana'); ?>
+    <?php Image('IMG_0325.jpg', 'Caracas, Venezuela'); ?>
   </div>
 </div>
 
