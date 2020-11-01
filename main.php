@@ -228,7 +228,8 @@ function AddToMailingList(email){
 
      <br><br>
 
-     <div><div class="button"><a href="mailto:girish@girishgupta.com">Email</a></div></div>
+     <div><div class="button"><a href="mailto:girish@girishgupta.com">Email Me</a></div></div>
+
 <br><br>
 
 <div class=text>
