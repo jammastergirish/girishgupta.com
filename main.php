@@ -421,7 +421,7 @@ function Story($url, $image, $headline, $publisher, $date)
 <br>
 <?php echo Story('https://journalism.girishgupta.com/sp.php?id=977', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/977.jpg', 'Special Report: In Venezuela\'s murky oil industry, the deal that went too far', 'Reuters', 'July 2016'); ?>
 <br>
-<?php echo Story('https://journalism.girishgupta.com/sp.php?id=976', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/976.jpg', '\We want food!\' Looting and riots rock Venezuela daily', 'Reuters', 'June 2016'); ?>
+<?php echo Story('https://journalism.girishgupta.com/sp.php?id=976', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/976.jpg', '\'We want food!\' Looting and riots rock Venezuela daily', 'Reuters', 'June 2016'); ?>
 <br>
 <?php echo Story('https://journalism.girishgupta.com/sp.php?id=899', 'https://storage.googleapis.com/journalism-8453.appspot.com/images/icons/899.jpg', 'Could Low Oil Prices End Venezuela\'s Revolution?', 'New Yorker', 'November 2014'); ?>
 <br>
