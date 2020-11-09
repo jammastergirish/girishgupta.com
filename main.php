@@ -30,6 +30,7 @@ else
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
 <script src="https://kit.fontawesome.com/9057082ce7.js" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="lazysizes.min.js" async=""></script>
 <style>
 body, html
 {
@@ -271,7 +272,7 @@ function AddToMailingList(email){
 
 function Image($file, $caption)
 {
-  echo "<div class=\"image_container\" style=\"width:100%\"><img src=\"".$file."\" alt=\"".$caption."\"><div class=\"overlay\">".$caption."</div></div>";
+  echo "<div class=\"image_container\" style=\"width:100%\"><img data-src=\"".$file."\" alt=\"".$caption."\" class=\"lazyload\"><div class=\"overlay\">".$caption."</div></div>";
 }
 
 ?>
@@ -349,27 +350,27 @@ else
       <br><br>
       I started teaching myself to code at eleven, assembling computers, writing <a href="https://github.com/jammastergirish/BPMCounter">software</a> and building database-driven <a href="https://storage.googleapis.com/girishnet/index.htm">websites</a> from scratch. A <a href="https://www.musicgoeson.com/">popular music site</a> I created in my early teens was listed by MTV as one of the then nascent web’s top twenty sources. I received scores of free CDs from record companies while unwittingly honing skills as a programmer, reporter, writer and entrepreneur. 
       <br><br>
-      <img src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <img data-src="mgo.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
       I was the first person in my family to go to university and began studying Natural Sciences at Cambridge though, unexcited by the medieval city's social life, moved to Manchester where I focused on Physics. My primary interests lie in spacetime, quantum mechanics and particles. However, my <a href="https://github.com/jammastergirish/MPhysAtrialFibrillation">Master's project</a>, the abstract to which was <a href="https://www.physoc.org/abstracts/role-of-the-pulmonary-vein-in-the-genesis-of-atrial-fibrillation-insights-from-a-biophysically-detailed-computational-model/">published</a>, was more practical: a simulation of the heart to investigate atrial fibrillation.
       <br><br>
-      <img src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <img data-src="mphys.png" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
       Outside physics, I ran the news section of the <a href="https://journalism.girishgupta.com/article.php?id=74">student</a> <a href="https://www.theguardian.com/student-media-awards-2010/winners-runners-up-2010">newspaper</a>, learned drill and discipline in the Officers' Training Corps and went backpacking around South America—leading to a drug-filled <a href="https://journalism.girishgupta.com/sp.php?id=6">Bolivian prison</a> and a rare flesh-eating bug, <a href="https://www.youtube.com/watch?v=Ywqtf5hX3S8">leishmaniasis</a>, which required three weeks on an <a href="https://journalism.girishgupta.com/sp.php?id=10">intravenuous drip</a> of sodium stibogluconate.
       <br><br>
       After graduating, I took a one-way flight to become a foreign correspondent. I was based primarily in <a href="https://journalism.girishgupta.com/by.php?by=country&what=venezuela">Venezuela</a> for nearly a decade where I produced groundbreaking investigations, covered <a href="https://journalism.girishgupta.com/sp.php?id=858">daily</a> <a href="https://journalism.girishgupta.com/sp.php?id=831">clashes</a> and reported on a <a href="https://journalism.girishgupta.com/sp.php?id=976">humanitarian</a> <a href="https://journalism.girishgupta.com/sp.php?id=855">crisis</a>. From Caracas, I traveled the world—often its most hostile environments including <a href="https://journalism.girishgupta.com/by.php?by=country&what=colombia">Colombia</a>,  <a href="https://journalism.girishgupta.com/by.php?by=country&what=egypt">Egypt</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=iraq">Iraq</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=afghanistan">Afghanistan</a>, <a href="https://journalism.girishgupta.com/by.php?by=country&what=cuba">Cuba</a> and <a href="https://journalism.girishgupta.com/by.php?by=country&what=mexico">Mexico</a>.
       <br><br>
-      <img src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <img data-src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
       As a freelancer, I covered the cancer, election and death of Hugo Chávez, the messy transition to Nicolás Maduro’s rule and the crisis that followed, including daily violent unrest. I also investigated <a href="https://journalism.girishgupta.com/sp.php?id=595">diamond smuggling</a> from illegal jungle mines in the Amazon, <a href="https://journalism.girishgupta.com/article.php?id=577">Glencore</a> profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. For five years, I ran a sustainable business in a notoriously difficult industry, traveling all over the Americas and Middle East. Across text, photos, radio and television, I worked with some 40 news outlets and stood up to sloppy reporting, slow payments and <a href="https://journalism.girishgupta.com/article.php?id=240">unpaid work</a>.
       <br><br>
       As a Senior Correspondent at Reuters covering Venezuela, I demonstrated—always with documents—multi-billion-dollar government oil <a href="https://journalism.girishgupta.com/sp.php?id=977">corruption</a>, military <a href="https://journalism.girishgupta.com/sp.php?id=1008">missile inventories</a>, details of <a href="https://journalism.girishgupta.com/article.php?id=1017">soldiers</a> arrested for treason and rebellion, fabrication of <a href="https://journalism.girishgupta.com/sp.php?id=2010">electoral results</a> and that the country’s Chief Justice was <a href="https://journalism.girishgupta.com/sp.php?id=1024">arrested on suspicion of murder</a>. My investigative work on Venezuela took me to the United States and all over Latin America. I also continued to cover the country's ever-worsening hyperinflation, social decay, food riots and protests. During my final few months there, I produced the in-country elements of a <a href="https://journalism.girishgupta.com/sp.php?id=2020">documentary</a> on its downfall.
       <br><br>
-      <img src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <img data-src="journalism2.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
       Alongside my reporting, I <a href="https://journalism.girishgupta.com/sp.php?id=2011">wrote web, mobile and watch applications</a> to provide live and historic data on Venezuela's dire economy. I wanted to understand the country's crisis from first principles and was shocked to see that companies such as Reuters and Bloomberg relied on staff pressing refresh on websites to get hold of data. My software was used by thousands of people including politicians, investors and journalists for everything from live black market exchange rate fluctuations to details of the brisk money-printing that fueled the world's highest inflation. I also wrote code to automate data acquisition, simple story-writing and other mind-numbing tasks that pull resources from reporting.
       <br><br>
-      <img src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;">
+      <img data-src="venecon.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
       However, I left journalism and expanded the <a href="https://journalism.girishgupta.com/sp.php?id=2018">Venezuela Econ</a> platform into a company, <a href="https://www.datadrum.com">Data Drum</a>, which offered automated, clean and elegant global macroeconomic data for half a dozen countries. I worked tirelessly on a meticulous product but never quite found its market. 
       <br><br>
@@ -400,7 +401,7 @@ function Story($url, $image, $headline, $publisher, $date)
     $brs = "<br><br>";
     $imagewidth = "150";
   }
-  echo "<a href=\"".$url."\"><img src=\"".$image."\" width=".$imagewidth." height=".$imagewidth." align=left style=\"margin:10px\">".$brs.$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
+  echo "<a href=\"".$url."\"><img data-src=\"".$image."\" width=".$imagewidth." height=".$imagewidth." align=left style=\"margin:10px\" class=\"lazyload\">".$brs.$headline."</a><br><font color=grey>".$publisher." | ".$date."</font><br clear=\"left\">";
 }
 
 ?>

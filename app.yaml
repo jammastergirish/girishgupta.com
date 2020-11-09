@@ -1,9 +1,9 @@
 runtime: php73
 
 handlers:
-  - url: /(.+\.(gif|png|jpg|pdf|asc))$
+  - url: /(.+\.(gif|png|jpg|pdf|asc|js))$
     static_files: \1
-    upload: .+\.(gif|png|jpg|pdf|asc)$
+    upload: .+\.(gif|png|jpg|pdf|asc|js)$
     secure: always
 
   - url: .*
