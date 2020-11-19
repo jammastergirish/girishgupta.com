@@ -220,6 +220,17 @@ input:focus
   opacity: 1;
 }
 
+/* https://www.w3schools.com/howto/howto_css_text_selection.asp */
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: #ff8c00;
+}
+
+::selection {
+  color: white;
+  background: #ff8c00;
+}
+
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151140334-1"></script>
 <script>
