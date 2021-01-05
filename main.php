@@ -232,14 +232,6 @@ input:focus
 }
 
 </style>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-151140334-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-151140334-1');
-</script>
 <script type="text/javascript">
 function AddToMailingList(email){
   $.post("addtomailinglist.php", {email: email} , function(data){
