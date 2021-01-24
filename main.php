@@ -253,9 +253,9 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      Hi, I'm Girish! I'm from England and am currently in Europe before moving to the United States next year.
+      I'm from England and will be moving to San Francisco in 2021.
       <br><br>
-      I’ve got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create products and architect neural networks to unearth corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
+      I've got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create companies and architect neural networks to reveal multi-billion-dollar corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
      
@@ -385,7 +385,7 @@ else
         <source src="https://www.datadrum.com/vid.mp4" type="video/mp4">
       </video>
       <br><br>
-      I then spent just over a year in Mumbai where I built a data science unit at a public policy <a href="https://www.idfcinstitute.org">non-profit</a>. I also created smaller-scale products of my own—<a href="https://www.globalotp.com">GlobalOTP</a>, <a href="https://www.readwise2roam.com">Readwise2Roam</a> and <a href="https://www.accordingtodocuments.com">According To Documents</a>. Now, as Chief Technology Officer at Stanford-conceived, Google-funded startup <a href="https://www.deepnews.ai">Deepnews.ai</a>, I’m building a machine learning algorithm to identify quality journalism at scale.
+      I then spent just over a year in Mumbai where I built a data science unit at a public policy <a href="https://www.idfcinstitute.org">non-profit</a>. Over the years, I've created smaller-scale products of my own—<a href="https://www.globalotp.com">GlobalOTP</a>, <a href="https://www.readwise2roam.com">Readwise2Roam</a>, <a href="https://www.accordingtodocuments.com">According To Documents</a> and <a href="https://apps.apple.com/us/app/math-for-journalists/id1547221444">Math for Journalists</a>. Now, as Chief Technology Officer at Stanford-conceived, Google-funded startup <a href="https://www.deepnews.ai">Deepnews</a>, I’m building a machine learning algorithm to identify quality journalism at scale.
 
 
     </div>
