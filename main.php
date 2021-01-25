@@ -334,7 +334,8 @@ else
 }
 ?>
 
-<iframe src="https://girish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://girish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:black;color:white" frameborder="1" scrolling="no"></iframe>
+
 <br><br>
 
      <div class="text">
