@@ -334,7 +334,13 @@ else
 }
 ?>
 
-<iframe src="https://girish.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:black;color:white" frameborder="1" scrolling="no"></iframe>
+<div class=text style="width:<?php echo $width; ?>%;"><div class=button>Subscribe</div>
+<br>
+  <input type="email" value="" id="email" placeholder="Your email" style="width:80%;">
+    <br><br>
+    <input type="submit" value="Sign Up!" name="subscribe" class="ActualButton" onClick=AddToMailingList(document.getElementById("email").value)>
+<br><br><div id="mailinglistresult"></div>
+</div>
 
 <br><br>
 
