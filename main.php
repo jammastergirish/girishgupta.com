@@ -253,7 +253,7 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      I'm from England and will be moving to San Francisco in 2021.
+      I'm from England and living in San Francisco.
       <br><br>
       I've got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create companies and architect neural networks to reveal multi-billion-dollar corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
       <br><br>
