@@ -261,11 +261,12 @@ function AddToMailingList(email){
      
       I'm CTO of a machine learning/news startup where we've built an algorithm to identify quality journalism. I've also founded my own companies, created a data science unit, and built many products from scratch.
 <br><br>
-      I have extensive experience in *serious* journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the New Yorker to Reuters, where I was a Senior Correspondent.
+      I have extensive experience in <i>serious</i> journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the New Yorker to Reuters, where I was a Senior Correspondent.
 <br><br>
-      I've got a degree in physics (my Master’s project involved computational modelling of atrial fibrillation) as well as two decades of full-stack programming experience.
+      I've got a Master's in physics as well as two decades of full-stack programming experience.
 <br><br>
-    Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+<br><br>
     </div>
 
      <br><br>
