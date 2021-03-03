@@ -253,13 +253,20 @@ function AddToMailingList(email){
 
     <div class="text">
 
-      I'm from England and living in San Francisco.
+      <!-- I'm from England and living in San Francisco.
       <br><br>
       I've got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create companies and architect neural networks to reveal multi-billion-dollar corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
       <br><br>
-      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people. -->
      
-     </div>
+      I'm CTO of a machine learning/news startup where we've built an algorithm to identify quality journalism. I've also founded my own companies, created a data science unit, and built many products from scratch.
+<br><br>
+      I have extensive experience in *serious* journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the New Yorker to Reuters, where I was a Senior Correspondent.
+<br><br>
+      I've got a degree in physics (my Master’s project involved computational modelling of atrial fibrillation) as well as two decades of full-stack programming experience.
+<br><br>
+    Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+    </div>
 
      <br><br>
 
