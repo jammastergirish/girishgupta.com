@@ -259,9 +259,9 @@ function AddToMailingList(email){
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people. -->
      
-      I'm CTO of a machine learning/news startup where we've built an algorithm to identify quality journalism. I've also founded my own companies, created a data science unit, and built many products from scratch.
+      I've founded my own companies, was CTO of a machine learning startup and built many products from scratch.
 <br><br>
-      I have extensive experience in <i>serious</i> journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the New Yorker to Reuters, where I was a Senior Correspondent.
+      I have extensive experience in <i>serious</i> journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the <i>New Yorker</i> to <i>Reuters</i>, where I was a Senior Correspondent.
 <br><br>
       I've got a Master's in physics as well as two decades of full-stack programming experience.
 <br><br>
