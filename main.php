@@ -259,7 +259,7 @@ function AddToMailingList(email){
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people. -->
      
-      I've founded my own companies, was CTO of a machine learning startup and built many products from scratch.
+      I've founded my own companies, have built many products from scratch and was CTO of a news/machine learning startup.
 <br><br>
       I have extensive experience in <i>serious</i> journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the <i>New Yorker</i> to <i>Reuters</i>, where I was a Senior Correspondent.
 <br><br>
