@@ -258,14 +258,15 @@ function AddToMailingList(email){
       I've got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create companies and architect neural networks to reveal multi-billion-dollar corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people. -->
-     
+      I'm currently finishing up a memoir about my time as a reporter: <a href="www.alwaysgo.xyz"><i>Always Go</i></a>. Sign up for excerpts!
+<br><br>
       I've founded my own companies, have built many products from scratch and was CTO of a news/machine learning startup.
 <br><br>
       I have extensive experience in <i>serious</i> journalism. My deep investigative and multimedia reporting from Venezuela, the Americas, and Middle East has been published by everyone from the <i>New Yorker</i> to <i>Reuters</i>, where I was a Senior Correspondent.
 <br><br>
       I've got a Master's in physics as well as two decades of full-stack programming experience.
 <br><br>
-      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people.
+      Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people—and am looking for my next thing.
 <br><br>
     </div>
 
@@ -373,7 +374,7 @@ else
       <br><br>
       <img data-src="journalism.jpg" width="80%" style="border-width: 5px;   border-color: black;   border-style: solid;" class="lazyload">
       <br><br>
-      As a freelancer, I covered the cancer, election and death of Hugo Chávez, the messy transition to Nicolás Maduro’s rule and the crisis that followed, including daily violent unrest. I also investigated <a href="https://journalism.girishgupta.com/sp.php?id=595">diamond smuggling</a> from illegal jungle mines in the Amazon, <a href="https://journalism.girishgupta.com/article.php?id=577">Glencore</a> profiting from a Colombian paramilitary massacre and, separately, the killing of wildcat gold miners there. I covered Cuba's <a href="https://journalism.girishgupta.com/sp.php?id=782">slow</a> <a href="https://journalism.girishgupta.com/sp.php?id=786">reopening</a>, protests in <a href="https://journalism.girishgupta.com/sp.php?id=726">Brazil</a>, <a href="https://journalism.girishgupta.com/sp.php?id=255">violence in Juárez</a>, <a href="https://journalism.girishgupta.com/sp.php?id=725">unrest in Tahrir Square</a>, <a href="https://journalism.girishgupta.com/sp.php?id=806">strikes on the Suez Canal</a>, <a href="https://journalism.girishgupta.com/sp.php?id=817">Syrian refugees at Zaatari</a> and <a href="https://journalism.girishgupta.com/sp.php?id=720">rocket attacks on Beirut</a>.
+      As a freelancer, I covered the cancer, election and death of Hugo Chávez, the messy transition to Nicolás Maduro’s rule and the crisis that followed, including daily violent unrest. I also investigated <a href="https://journalism.girishgupta.com/sp.php?id=595">diamond smuggling</a> from illegal jungle mines in the Amazon, a Colombian paramilitary massacre and the killing of wildcat gold miners there. I covered Cuba's <a href="https://journalism.girishgupta.com/sp.php?id=782">slow</a> <a href="https://journalism.girishgupta.com/sp.php?id=786">reopening</a>, protests in <a href="https://journalism.girishgupta.com/sp.php?id=726">Brazil</a>, <a href="https://journalism.girishgupta.com/sp.php?id=255">violence in Juárez</a>, <a href="https://journalism.girishgupta.com/sp.php?id=725">unrest in Tahrir Square</a>, <a href="https://journalism.girishgupta.com/sp.php?id=806">strikes on the Suez Canal</a>, <a href="https://journalism.girishgupta.com/sp.php?id=817">Syrian refugees at Zaatari</a> and <a href="https://journalism.girishgupta.com/sp.php?id=720">rocket attacks on Beirut</a>.
       <br><br>
       For five years, I ran a sustainable business in a notoriously difficult industry. Across text, photos, radio and television, I worked with some 40 news outlets and stood up to sloppy reporting, slow payments and <a href="https://journalism.girishgupta.com/article.php?id=240">unpaid work</a>.
       <br><br>
