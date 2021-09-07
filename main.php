@@ -258,7 +258,7 @@ function AddToMailingList(email){
       I've got a background in physics, two decades of full-stack programming experience and my investigative and multimedia reporting from Venezuela, the Americas and Middle East has been published by everyone from Reuters to the New Yorker. I have used strong analytical skills to do everything from create companies and architect neural networks to reveal multi-billion-dollar corruption and stay safe in hostile environments. I also enjoy playing music, photography, keeping fit and satiating my curiosity.
       <br><br>
       Please get in touch if you're keen to chat. I'm always open to meeting enthusiastic and interesting new people. -->
-      I'm currently finishing up a memoir about my time as a reporter: <a href="www.alwaysgo.xyz"><i>Always Go</i></a>. Sign up for excerpts!
+      I'm currently finishing up a memoir about my time as a reporter: <a href="https://www.alwaysgo.xyz"><i>Always Go</i></a>.
 <br><br>
       I've founded my own companies, have built many products from scratch and was CTO of a news/machine learning startup.
 <br><br>
