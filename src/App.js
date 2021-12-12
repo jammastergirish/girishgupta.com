@@ -145,7 +145,7 @@ function App() {
         <div className="text" style={{ width: "40%" }}>
           <div className="button">Subscribe</div>
           <br />
-          Receive updates on all I'm up to, including excerpts from{" "}
+          Receive occasional updates on all I'm up to, including excerpts from{" "}
           <i>Always Go</i>.<br />
           <br />
           <form onSubmit={submitHandler}>
