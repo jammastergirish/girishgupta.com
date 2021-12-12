@@ -229,7 +229,7 @@ function App() {
           </a>
           , which required three weeks on an{" "}
           <a href="https://journalism.girishgupta.com/sp.php?id=10">
-            intravenuous drip
+            intravenous drip
           </a>{" "}
           of sodium stibogluconate.
           <br />
