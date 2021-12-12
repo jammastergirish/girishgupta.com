@@ -31,7 +31,7 @@ function App() {
           <a href="https://www.subcity.com">
             <i>Subcity</i>
           </a>
-          , a well-run, mission-driven startup where we help small businesses
+          , a well-run, mission-driven startup which helps small businesses
           tap into government subsidies that all too often go unclaimed.
           <br />
           <br />
