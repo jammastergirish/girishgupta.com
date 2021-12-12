@@ -53,7 +53,7 @@ function App() {
           <a href="https://www.alwaysgo.xyz">
             <i>Always Go</i>
           </a>
-          , is my honest memoir about my time as a reporter.
+          , is an honest memoir about my time as a reporter.
           <br />
           <br />
           My deepest passion, though, is physics, which I studied—to Master's
