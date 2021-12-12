@@ -64,8 +64,7 @@ function App() {
           <br />
           Please get in touch if you're keen to chat. I'm always open to meeting
           enthusiastic and interesting new people. (And definitely get in touch
-          if you want to get into journalism and aren't from a traditional
-          background. I'd love to help!)
+          if you want to get into journalism and aren't from a traditional background. I'd love to help!)
           <br />
           <br />
         </div>
