@@ -212,6 +212,7 @@ function App() {
               borderColor: "black",
               borderStyle: "solid",
             }}
+            alt="Music Goes On"
           />
           <br />
           <br />I was the first person in my family to go to university and
@@ -238,6 +239,7 @@ function App() {
               borderColor: "black",
               borderStyle: "solid",
             }}
+            alt="Abstract to Master's project"
           />
           <br />
           <br />
@@ -314,6 +316,7 @@ function App() {
               borderColor: "black",
               borderStyle: "solid",
             }}
+            alt="Journalism"
           />
           <br />
           <br />
@@ -409,6 +412,7 @@ function App() {
               borderColor: "black",
               borderStyle: "solid",
             }}
+            alt="Journalism"
           />
           <br />
           <br />
@@ -438,6 +442,7 @@ function App() {
               borderColor: "black",
               borderStyle: "solid",
             }}
+            alt="Venezuela Econ"
           />
           <br />
           <br />

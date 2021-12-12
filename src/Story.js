@@ -7,7 +7,8 @@ const Story = (props) => {
           width="150"
           height="150"
           align="left"
-          style={{ margin: '10px' }}
+          style={{ margin: "10px" }}
+          alt={props.headline}
         />
         <br />
         <br />
