@@ -1,8 +1,30 @@
+import { useState, useRef } from "react";
 import "./App.css";
 import Image from "./Image";
 import Story from "./Story";
 
 function App() {
+  const [emailSubmitted, setEmailSubmitted] = useState(false);
+  const enteredEmailRef = useRef();
+
+  function submitHandler(event) {
+    event.preventDefault();
+
+    const now = new Date();
+
+    const emailData = {
+      date: now.toISOString(),
+      email: enteredEmailRef.current.value,
+    };
+    fetch("https://main-website-gg-default-rtdb.firebaseio.com/emails.json", {
+      method: "POST",
+      body: JSON.stringify(emailData),
+      header: { "Content-Type": "application/json" },
+    }).then(() => {
+      setEmailSubmitted(true);
+    });
+  }
+
   return (
     <div className="bgimg">
       <div className="caption">
@@ -120,28 +142,36 @@ function App() {
         </div>
         <br />
         <br />
-        {/* <div className="text" style={{ width: "25%" }}>
+        <div className="text" style={{ width: "40%" }}>
           <div className="button">Subscribe</div>
           <br />
-          <input
-            type="email"
-            defaultValue
-            id="email"
-            placeholder="Your email"
-            style={{ width: "80%" }}
-          />
+          Receive updates on all I'm up to, including excerpts from{" "}
+          <i>Always Go</i>.<br />
           <br />
+          <form onSubmit={submitHandler}>
+            <input
+              type="email"
+              placeholder="Your email"
+              style={{ width: "80%" }}
+              ref={enteredEmailRef}
+            />
+            <br />
+            <br />
+            <input
+              type="submit"
+              defaultValue="Sign Up!"
+              name="subscribe"
+              className="ActualButton"
+            />
+          </form>
           <br />
-          <input
-            type="submit"
-            defaultValue="Sign Up!"
-            name="subscribe"
-            className="ActualButton"
-          />
-          <br />
-          <br />
-          <div id="mailinglistresult" />
-        </div> */}
+          <div />
+          {emailSubmitted && (
+            <font color="orange">
+              <i>Thank you!</i>
+            </font>
+          )}
+        </div>
         <br />
         <br />
         <div className="text">
