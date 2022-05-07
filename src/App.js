@@ -168,7 +168,9 @@ function App() {
           <div />
           {emailSubmitted && (
             <font color="orange">
-              <i>Thank you!</i>
+              <b>
+                <i>Thank you!</i>
+              </b>
             </font>
           )}
         </div>
