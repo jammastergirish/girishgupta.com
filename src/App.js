@@ -4,24 +4,28 @@ import Image from "./Image";
 import Story from "./Story";
 
 function App() {
+  const [email, setEmail] = useState("");
   const [emailSubmitted, setEmailSubmitted] = useState(false);
-  const enteredEmailRef = useRef();
 
-  function submitHandler(event) {
-    event.preventDefault();
+  const emailHandler = (e) => {
+    setEmail(e.target.value);
+  };
+
+  function submitHandler(e) {
+    e.preventDefault();
 
     const now = new Date();
 
-    const emailData = {
-      date: now.toISOString(),
-      email: enteredEmailRef.current.value,
-    };
     fetch("https://main-website-gg-default-rtdb.firebaseio.com/emails.json", {
       method: "POST",
-      body: JSON.stringify(emailData),
+      body: JSON.stringify({
+        date: now.toISOString(),
+        email: email,
+      }),
       header: { "Content-Type": "application/json" },
     }).then(() => {
       setEmailSubmitted(true);
+      setEmail("");
     });
   }
 
@@ -152,8 +156,9 @@ function App() {
             <input
               type="email"
               placeholder="Your email"
+              value={email}
               style={{ width: "80%" }}
-              ref={enteredEmailRef}
+              onChange={emailHandler}
             />
             <br />
             <br />
